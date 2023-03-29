@@ -80,7 +80,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: #0fd3dd;
+  color: #3572A5;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -98,7 +98,7 @@ section .title::after {
 
 .navbar.sticky {
   padding: 15px 0;
-  background: #0fd3dd;
+  background: #3572A5;
 }
 
 .navbar .max-width {
@@ -114,7 +114,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-  color: #0fd3dd;
+  color: #3572A5;
   transition: all 0.3s ease;
 }
 
@@ -137,7 +137,7 @@ section .title::after {
 }
 
 .navbar .menu li a:hover {
-  color: #0fd3dd;
+  color: #3572A5;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -156,7 +156,7 @@ section .title::after {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: #0fd3dd;
+  background: #3572A5;
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -219,25 +219,25 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-  color: #0fd3dd;
+  color: #3572A5;
   font-weight: 500;
 }
 
 .home .home-content a {
   display: inline-block;
-  background: #0fd3dd;
+  background: #3572A5;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid #0fd3dd;
+  border: 2px solid #3572A5;
   transition: all 0.3s ease;
 }
 
 .home .home-content a:hover {
-  color: #0fd3dd;
+  color: #3572A5;
   background: none;
 }
 
@@ -268,7 +268,7 @@ section .title::after {
 }
 
 .about .about-content .right .text span {
-  color: #0fd3dd;
+  color: #3572A5;
 }
 
 .about .about-content .right p {
@@ -277,19 +277,19 @@ section .title::after {
 
 .about .about-content .right a {
   display: inline-block;
-  background: #0fd3dd;
+  background: #3572A5;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid #0fd3dd;
+  border: 2px solid #3572A5;
   transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover {
-  color: #0fd3dd;
+  color: #3572A5;
   background: none;
 }
 
@@ -344,7 +344,7 @@ section .title::after {
   height: 100%;
   left: 0;
   top: 0;
-  background: #0fd3dd;
+  background: #3572A5;
 }
 
 .skills-content .right .py::before {
@@ -376,7 +376,7 @@ footer {
 }
 
 footer span a {
-  color: #0fd3dd;
+  color: #3572A5;
   text-decoration: none;
 }
 
