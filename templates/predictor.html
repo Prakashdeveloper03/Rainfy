@@ -46,10 +46,13 @@
               <div class="md-form">
                 <label for="mintemp" class="mintemp"> Minimum temprature</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="mintemp"
                   name="mintemp"
+                  min="-5.9"
+                  max="30.4"
+                  step="0.1"
                   required
                 />
               </div>
@@ -58,10 +61,13 @@
               <div class="md-form">
                 <label for="maxtemp" class="maxtemp">Maximum Temperature</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="maxtemp"
                   name="maxtemp"
+                  min="2.7"
+                  max="43.5"
+                  step="0.1"
                   required
                 />
               </div>
@@ -70,10 +76,13 @@
               <div class="md-form">
                 <label for="rainfall" class="rainfall">Rainfall</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="rainfall"
                   name="rainfall"
+                  min="0"
+                  max="1.5"
+                  step="0.1"
                   required
                 />
               </div>
@@ -82,10 +91,13 @@
               <div class="md-form">
                 <label for="evaporation" class="evaporation">Evaporation</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="evaporation"
                   name="evaporation"
+                  min="2.2"
+                  max="7.0"
+                  step="0.1"
                   required
                 />
               </div>
@@ -94,10 +106,13 @@
               <div class="md-form">
                 <label for="sunshine" class="sunshine">Sunshine</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="sunshine"
                   name="sunshine"
+                  min="7.4"
+                  max="9.4"
+                  step="0.1"
                   required
                 />
               </div>
@@ -108,10 +123,13 @@
                   >Wind Gust Speed</label
                 >
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="windgustspeed"
                   name="windgustspeed"
+                  min="8.5"
+                  max="68.5"
+                  step="0.5"
                   required
                 />
               </div>
@@ -122,10 +140,13 @@
                   >Wind Speed 9am</label
                 >
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="windspeed9am"
                   name="windspeed9am"
+                  min="0.0"
+                  max="37.0"
+                  step="1.0"
                   required
                 />
               </div>
@@ -136,10 +157,13 @@
                   >Wind Speed 3pm</label
                 >
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="windspeed3pm"
                   name="windspeed3pm"
+                  min="0.0"
+                  max="40.0"
+                  step="1.0"
                   required
                 />
               </div>
@@ -150,10 +174,13 @@
                   >Humidity 9am</label
                 >
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="humidity9am"
                   name="humidity9am"
+                  min="18.0"
+                  max="100.0"
+                  step="1.0"
                   required
                 />
               </div>
@@ -164,10 +191,13 @@
                   >Humidity 3pm</label
                 >
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="humidity3pm"
                   name="humidity3pm"
+                  min="0.0"
+                  max="100.0"
+                  step="1.0"
                   required
                 />
               </div>
@@ -178,10 +208,13 @@
                   >Pressure 9am</label
                 >
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="pressure9am"
                   name="pressure9am"
+                  min="1001.1"
+                  max="1034.2"
+                  step="0.1"
                   required
                 />
               </div>
@@ -192,10 +225,13 @@
                   >Pressure 3pm</label
                 >
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="pressure3pm"
                   name="pressure3pm"
+                  min="998.6"
+                  max="1031.8"
+                  step="0.1"
                   required
                 />
               </div>
@@ -205,10 +241,13 @@
               <div class="md-form">
                 <label for="temp9am" class="temp9am">Temperature 9am</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="temp9am"
                   name="temp9am"
+                  min="-1.5"
+                  max="35.5"
+                  step="0.1"
                   required
                 />
               </div>
@@ -217,10 +256,13 @@
               <div class="md-form">
                 <label for="temp3pm" class="temp3pm">Temperature 3pm</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="temp3pm"
                   name="temp3pm"
+                  min="2.4"
+                  max="40.5"
+                  step="0.1"
                   required
                 />
               </div>
@@ -229,10 +271,13 @@
               <div class="md-form">
                 <label for="cloud9am" class="cloud9am">Cloud 9am</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="cloud9am"
                   name="cloud9am"
+                  min="0.0"
+                  max="9.0"
+                  step="1.0"
                   required
                 />
               </div>
@@ -241,10 +286,13 @@
               <div class="md-form">
                 <label for="cloud3pm" class="cloud3pm">Cloud 3pm</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   id="cloud3pm"
                   name="cloud3pm"
+                  min="0.0"
+                  max="9.0"
+                  step="1.0"
                   required
                 />
               </div>
